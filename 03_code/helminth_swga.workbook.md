@@ -53,6 +53,8 @@ bsub.py 5 swga_tt_v_sth "perl /nfs/users/nfs_s/sd21/lustre118_link/STH/SWGA/swga
 cat ttrichiura_v_sth_swga-out | sort -k4,4n | tail -n20
 ```
 - ranked 20 list of primers, hits on target, hits on contaminant, target/contaminant enrichment, Tm
+
+|--------------|-------------|------------------|--------------------------|----|
 | primer       | target_hits | contaminant_hits | target_contaminant_ratio | Tm |
 |--------------|-------------|------------------|--------------------------|----|
 | AAGTAAACTTCA | 894         | 448              | 1.99553571428571         | 30 |
